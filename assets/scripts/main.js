@@ -101,14 +101,12 @@ function bindShowMore() {
   // Part 2 Explore - TODO
   let showMoreButton = document.querySelector('button');
   showMoreButton.addEventListener('click', function() {
-    let cardList = document.querySelectorAll("recipe-card");
     let i = 0;
-    for(let blah of cardList) {
-      if (i >= 3 && blah.style.display === "block") {
-        blah.style.display = "none";
-      }
-      else {
-        blah.style.display = "block";
+    for(let x of document.querySelectorAll("recipe-card")) {
+      if (i >= 3 && x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
       }
       i++;
     }
