@@ -1,0 +1,369 @@
+{
+    "@context": "https://schema.org",
+    "@graph": [
+        {
+            "@type": "Organization",
+            "@id": "https://whattocooktoday.com/#organization",
+            "name": "What To Cook Today",
+            "url": "https://whattocooktoday.com/",
+            "sameAs": [
+                "https://www.facebook.com/WhatToCookToday",
+                "https://www.instagram.com/whattocooktoday/",
+                "https://www.youtube.com/channel/UCXJP9KXFjZn9869qdmgTr8g",
+                "https://www.pinterest.com/whattocooktoday/",
+                "https://twitter.com/CerebralMarv"
+            ],
+            "logo": {
+                "@type": "ImageObject",
+                "@id": "https://whattocooktoday.com/#logo",
+                "inLanguage": "en-US",
+                "url": "https://whattocooktoday.com/wp-content/uploads/2019/04/W-2.jpg",
+                "contentUrl": "https://whattocooktoday.com/wp-content/uploads/2019/04/W-2.jpg",
+                "width": 114,
+                "height": 114,
+                "caption": "What To Cook Today"
+            },
+            "image": {
+                "@id": "https://whattocooktoday.com/#logo"
+            }
+        },
+        {
+            "@type": "WebSite",
+            "@id": "https://whattocooktoday.com/#website",
+            "url": "https://whattocooktoday.com/",
+            "name": "What To Cook Today",
+            "description": "Tried and True Asian Recipes &amp; Tutorials",
+            "publisher": {
+                "@id": "https://whattocooktoday.com/#organization"
+            },
+            "potentialAction": [
+                {
+                    "@type": "SearchAction",
+                    "target": {
+                        "@type": "EntryPoint",
+                        "urlTemplate": "https://whattocooktoday.com/?s={search_term_string}"
+                    },
+                    "query-input": "required name=search_term_string"
+                }
+            ],
+            "inLanguage": "en-US"
+        },
+        {
+            "@type": "ImageObject",
+            "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#primaryimage",
+            "inLanguage": "en-US",
+            "url": "https://whattocooktoday.com/wp-content/uploads/2012/09/basic-congee-14.jpg",
+            "contentUrl": "https://whattocooktoday.com/wp-content/uploads/2012/09/basic-congee-14.jpg",
+            "width": 650,
+            "height": 975,
+            "caption": "How to Make Basic Asian Rice Porridge (Congee)"
+        },
+        {
+            "@type": "WebPage",
+            "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#webpage",
+            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html",
+            "name": "How to Make Basic Asian Rice Porridge (Congee)",
+            "isPartOf": {
+                "@id": "https://whattocooktoday.com/#website"
+            },
+            "primaryImageOfPage": {
+                "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#primaryimage"
+            },
+            "datePublished": "2012-09-08T08:00:05+00:00",
+            "dateModified": "2020-05-14T20:54:35+00:00",
+            "description": "Learn how to make silky smooth Asian rice porridge (Congee). It can be done on the stove, rice cooker or Instant Pot.",
+            "breadcrumb": {
+                "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#breadcrumb"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "ReadAction",
+                    "target": [
+                        "https://whattocooktoday.com/how-to-make-rice-porridge.html"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "BreadcrumbList",
+            "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#breadcrumb",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://whattocooktoday.com/"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Asian Instant Pot Recipes",
+                    "item": "https://whattocooktoday.com/category/instant-pot"
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "name": "How to Make Basic Asian Rice Porridge (Congee)"
+                }
+            ]
+        },
+        {
+            "@type": "Article",
+            "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#article",
+            "isPartOf": {
+                "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#webpage"
+            },
+            "author": {
+                "@id": "https://whattocooktoday.com/#/schema/person/8b9c92e2d41a75995a9df7d7b5d6fc60"
+            },
+            "headline": "How to Make Basic Asian Rice Porridge (Congee)",
+            "datePublished": "2012-09-08T08:00:05+00:00",
+            "dateModified": "2020-05-14T20:54:35+00:00",
+            "wordCount": 1897,
+            "commentCount": 26,
+            "publisher": {
+                "@id": "https://whattocooktoday.com/#organization"
+            },
+            "image": {
+                "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#primaryimage"
+            },
+            "thumbnailUrl": "https://whattocooktoday.com/wp-content/uploads/2012/09/basic-congee-14.jpg",
+            "keywords": [
+                "porridge",
+                "Rice"
+            ],
+            "articleSection": [
+                "Asian Instant Pot Recipes",
+                "Chinese",
+                "GLUTEN FREE",
+                "Pressure Cooking",
+                "Recipes with Videos",
+                "RICE / GRAINS",
+                "Trending Now"
+            ],
+            "inLanguage": "en-US",
+            "potentialAction": [
+                {
+                    "@type": "CommentAction",
+                    "name": "Comment",
+                    "target": [
+                        "https://whattocooktoday.com/how-to-make-rice-porridge.html#respond"
+                    ]
+                }
+            ]
+        },
+        {
+            "@type": "Person",
+            "@id": "https://whattocooktoday.com/#/schema/person/8b9c92e2d41a75995a9df7d7b5d6fc60",
+            "name": "Marvellina",
+            "image": {
+                "@type": "ImageObject",
+                "@id": "https://whattocooktoday.com/#personlogo",
+                "inLanguage": "en-US",
+                "url": "https://whattocooktoday.com/wp-content/litespeed/avatar/c2f28eea711a2bf90175d71123f86869.jpg",
+                "contentUrl": "https://whattocooktoday.com/wp-content/litespeed/avatar/c2f28eea711a2bf90175d71123f86869.jpg",
+                "caption": "Marvellina"
+            },
+            "description": "Marvellina is a food blogger, recipe developer, photographer, and publisher at What To Cook Today. A food blog that brings you tried and true Asian recipes.",
+            "sameAs": [
+                "whattocooktoday",
+                "whattocooktoday",
+                "whattocooktoday"
+            ],
+            "url": "https://whattocooktoday.com/author/mgoh888"
+        },
+        {
+            "@context": "http://schema.org/",
+            "@type": "Recipe",
+            "name": "How to Make Basic Asian Rice Porridge (Congee)",
+            "author": {
+                "@type": "Person",
+                "name": "Marvellina"
+            },
+            "description": "Learn how to make silky smooth Asian rice porridge (Congee). It can be done on the stove, rice cooker or Instant Pot.",
+            "datePublished": "2012-09-08T03:00:05+00:00",
+            "image": [
+                "https://whattocooktoday.com/wp-content/uploads/2012/09/basic-congee-14.jpg",
+                "https://whattocooktoday.com/wp-content/uploads/2012/09/basic-congee-14-500x500.jpg",
+                "https://whattocooktoday.com/wp-content/uploads/2012/09/basic-congee-14-500x375.jpg",
+                "https://whattocooktoday.com/wp-content/uploads/2012/09/basic-congee-14-480x270.jpg"
+            ],
+            "video": {
+                "name": "How To Make Basic Asian Rice Porridge (Congee)",
+                "description": "Learn how to make silky smooth rice congee on the stove, with rice cooker, or Instant Pot Pressure Cooker",
+                "thumbnailUrl": "https://content.jwplatform.com/thumbs/RKdSTtI4-720.jpg",
+                "contentUrl": "https://content.jwplatform.com/videos/RKdSTtI4.mp4",
+                "uploadDate": "2020-02-27T03:06:18.000Z",
+                "@type": "VideoObject"
+            },
+            "recipeYield": [
+                "6",
+                "6 servings"
+            ],
+            "prepTime": "PT5M",
+            "cookTime": "PT30M",
+            "totalTime": "PT35M",
+            "recipeIngredient": [
+                "200 gr Jasmine rice",
+                "Water or stock (see rice to liquid ratio below)",
+                "Salt to taste"
+            ],
+            "recipeInstructions": [
+                {
+                    "@type": "HowToSection",
+                    "name": "Rice to Liquid ratio:",
+                    "itemListElement": [
+                        {
+                            "@type": "HowToStep",
+                            "text": "For very thick porridge: Rice to liquid ratio is 1:7",
+                            "name": "For very thick porridge: Rice to liquid ratio is 1:7",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-0-0"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "For thick porridge: Rice to liquid ratio is 1:8",
+                            "name": "For thick porridge: Rice to liquid ratio is 1:8",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-0-1"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "For medium-thick porridge: Rice to liquid ratio is 1:9 (I like to use this ratio)",
+                            "name": "For medium-thick porridge: Rice to liquid ratio is 1:9 (I like to use this ratio)",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-0-2"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "For medium-thin congee: Rice to liquid ratio is 1:10",
+                            "name": "For medium-thin congee: Rice to liquid ratio is 1:10",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-0-3"
+                        }
+                    ]
+                },
+                {
+                    "@type": "HowToSection",
+                    "name": "Prepare the rice:",
+                    "itemListElement": [
+                        {
+                            "@type": "HowToStep",
+                            "text": "Just briefly rinse the rice for any impurities. You may not even need to do so because some brands have prewashed the rice Place the rice and water in a medium-large pot.&nbsp;",
+                            "name": "Just briefly rinse the rice for any impurities. You may not even need to do so because some brands have prewashed the rice Place the rice and water in a medium-large pot.&nbsp;",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-1-0"
+                        }
+                    ]
+                },
+                {
+                    "@type": "HowToSection",
+                    "name": "Cooking congee on the stove:",
+                    "itemListElement": [
+                        {
+                            "@type": "HowToStep",
+                            "text": "Bring the water/stock to a boil and then lower the heat and add the rice. Bring it back to a boil and then lower the heat to medium to let it gently\u00a0simmer for about 25-30 minutes, stirring every now and then to prevent the rice catching at the bottom of the pot. The rice grains will slowly release more starch and get smoother and creamier starting at about 20 minutes or so",
+                            "name": "Bring the water/stock to a boil and then lower the heat and add the rice. Bring it back to a boil and then lower the heat to medium to let it gently\u00a0simmer for about 25-30 minutes, stirring every now and then to prevent the rice catching at the bottom of the pot. The rice grains will slowly release more starch and get smoother and creamier starting at about 20 minutes or so",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-2-0"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "If you are adding meat like chicken, beef, pork,&nbsp; fish, add only after the porridge has thickened. Add them in at this point and stir until they are cooked through. Season with salt to your taste and serve immediately while the porridge is hot",
+                            "name": "If you are adding meat like chicken, beef, pork,&nbsp; fish, add only after the porridge has thickened. Add them in at this point and stir until they are cooked through. Season with salt to your taste and serve immediately while the porridge is hot",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-2-1"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "The longer the porridge sits, the thicker it will get. You can always thin it out by adding more water or stock",
+                            "name": "The longer the porridge sits, the thicker it will get. You can always thin it out by adding more water or stock",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-2-2"
+                        }
+                    ]
+                },
+                {
+                    "@type": "HowToSection",
+                    "name": "Cooking congee with Instant Pot Pressure Cooker:",
+                    "itemListElement": [
+                        {
+                            "@type": "HowToStep",
+                            "text": "Place 1 cup of rice with the amount of water ratio you choose to use. 9 cups is a good one to start if it's your first time making it in instant pot. Less liquid is lost when you cook in Instant pot, so 9 cups of liquid is almost equivalent to 10 cups of liquid cooking on the stove",
+                            "name": "Place 1 cup of rice with the amount of water ratio you choose to use. 9 cups is a good one to start if it's your first time making it in instant pot. Less liquid is lost when you cook in Instant pot, so 9 cups of liquid is almost equivalent to 10 cups of liquid cooking on the stove",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-3-0"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "Press pressure cook and set to high pressure. Set timer to 30 minutes. When it's done cooking, release pressure naturally, which may take about 10-15 minutes",
+                            "name": "Press pressure cook and set to high pressure. Set timer to 30 minutes. When it's done cooking, release pressure naturally, which may take about 10-15 minutes",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-3-1"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "If the porridge is too thick, you can always think it out by adding more water or stock. If you want to add protein like meat or fish, turn on the saute mode and bring it to a boil and then add in the meat and cook until they are cooked through. Season with salt to your taste",
+                            "name": "If the porridge is too thick, you can always think it out by adding more water or stock. If you want to add protein like meat or fish, turn on the saute mode and bring it to a boil and then add in the meat and cook until they are cooked through. Season with salt to your taste",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-3-2"
+                        }
+                    ]
+                },
+                {
+                    "@type": "HowToSection",
+                    "name": "Cooking congee with rice cooker:",
+                    "itemListElement": [
+                        {
+                            "@type": "HowToStep",
+                            "text": "Add rice and liquid to the rice cooker. I recommend starting with 9 cups of liquid. This sometimes also depends on your rice cooker, so you may need to experiment. Close the lid and if your rice cooker has porridge setting, use that. If not just press cook and cook for one cycle. When it&#x27;s done, open up and see if it has thickened to the consistency you like. If it&#x27;s still watery, cook for another cycle. If it&#x27;s too thick, you can always add more liquid and stir. It should thin out to the consistency you prefer. Season with salt to your taste",
+                            "name": "Add rice and liquid to the rice cooker. I recommend starting with 9 cups of liquid. This sometimes also depends on your rice cooker, so you may need to experiment. Close the lid and if your rice cooker has porridge setting, use that. If not just press cook and cook for one cycle. When it&#x27;s done, open up and see if it has thickened to the consistency you like. If it&#x27;s still watery, cook for another cycle. If it&#x27;s too thick, you can always add more liquid and stir. It should thin out to the consistency you prefer. Season with salt to your taste",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-4-0"
+                        }
+                    ]
+                },
+                {
+                    "@type": "HowToSection",
+                    "name": "Frozen rice congee:",
+                    "itemListElement": [
+                        {
+                            "@type": "HowToStep",
+                            "text": "Place 1 cup of briefly washed rice or whatever quantity you want in a freezer-friendly bag and let it freeze for at least 6 hours (12 hours if you have the time). You can freeze several bags for future use too. Frozen rice be kept in the fridge for up to 3 months",
+                            "name": "Place 1 cup of briefly washed rice or whatever quantity you want in a freezer-friendly bag and let it freeze for at least 6 hours (12 hours if you have the time). You can freeze several bags for future use too. Frozen rice be kept in the fridge for up to 3 months",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-5-0"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "When ready to cook, place water or stock in a medium-large pot and with the amount of water ratio you like. I use 9 cups and bring to a boil and then add the frozen rice grains (without thawing). Bring it back to a boil and lower the heat to low-medium. let it simmer for 20 minutes over medium heat until thickened to the consistency you like. Stir every now and then to prevent the rice from catching at the bottom and burn",
+                            "name": "When ready to cook, place water or stock in a medium-large pot and with the amount of water ratio you like. I use 9 cups and bring to a boil and then add the frozen rice grains (without thawing). Bring it back to a boil and lower the heat to low-medium. let it simmer for 20 minutes over medium heat until thickened to the consistency you like. Stir every now and then to prevent the rice from catching at the bottom and burn",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-5-1"
+                        },
+                        {
+                            "@type": "HowToStep",
+                            "text": "If you are adding meat like chicken, beef, pork,  fish, add only after the porridge has thickened. Add them in at this point and stir until they are cooked through. Season with salt to your taste and serve immediately while the porridge is hot",
+                            "name": "If you are adding meat like chicken, beef, pork,  fish, add only after the porridge has thickened. Add them in at this point and stir until they are cooked through. Season with salt to your taste and serve immediately while the porridge is hot",
+                            "url": "https://whattocooktoday.com/how-to-make-rice-porridge.html#wprm-recipe-26436-step-5-2"
+                        }
+                    ]
+                }
+            ],
+            "aggregateRating": {
+                "@type": "AggregateRating",
+                "ratingValue": "4.76",
+                "ratingCount": "25"
+            },
+            "recipeCategory": [
+                "Breakfast",
+                "Entree",
+                "Side Dish"
+            ],
+            "recipeCuisine": [
+                "Chinese"
+            ],
+            "keywords": "Asian rice porridge, Chinese congee, Chinese rice porridge, Jook",
+            "nutrition": {
+                "@type": "NutritionInformation",
+                "servingSize": "1 Cup",
+                "calories": "92 kcal",
+                "carbohydrateContent": "21 g",
+                "proteinContent": "2 g",
+                "sodiumContent": "10 mg"
+            },
+            "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#recipe",
+            "isPartOf": {
+                "@id": "https://whattocooktoday.com/how-to-make-rice-porridge.html#article"
+            },
+            "mainEntityOfPage": "https://whattocooktoday.com/how-to-make-rice-porridge.html#webpage"
+        }
+    ]
+}
